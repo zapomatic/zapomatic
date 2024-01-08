@@ -3,6 +3,8 @@
 - 🌱 I’m currently developing a tool for managing my node
 - 📫 telegram: [@zapomatic](https://t.me/zapomatic)
 
+
+- [PeerSwap Guide](https://github.com/zapomatic/zapomatic/blob/main/PeerSwap.md)
 <!---
 zapomatic/zapomatic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
