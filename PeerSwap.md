@@ -113,6 +113,8 @@ sudo systemctl status peerswapd
 sudo systemctl enable peerswapd
 ```
 
+> NOTE: If you restart LND, peeerswapd may crap out and you will need to restart it with `sudo systemctl restart peerswapd` -- this happened to me and I my peerswap partners couldn't see my node until I did a restart of peerswapd
+
 ## Test and Initiate Swap!
 
 Once Elements has synced, we can run a swap!
