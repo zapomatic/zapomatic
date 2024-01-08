@@ -4,7 +4,7 @@ Feeling reckless today, [Zap-O-Matic](https://amboss.space/node/026d0169e8c220d8
 
 It went without a hitch! And to our surprise, Liquid BTC transactions have confidential UTXO sizes. The only thing you can see in the history is the addresses and the fees: https://liquid.network/ -- Kinda neat.
 
-There's a really helpful blog guide by [Vlad](https://github.com/Impa10r) who is working on an Umbrel App store app for reference: https://medium.com/@goryachev/liquid-rebalancing-of-lightning-channels-2dadf4b2397a
+There's a really helpful blog guide by [Vlad](https://github.com/Impa10r) who is working on an Umbrel App store app for his [PeerSwap Web UI](https://github.com/Impa10r/peerswap-web) for reference: https://medium.com/@goryachev/liquid-rebalancing-of-lightning-channels-2dadf4b2397a
 
 Here's how you can do this on an Umbrel Home with LND:
 
