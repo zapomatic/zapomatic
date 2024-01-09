@@ -108,7 +108,7 @@ But let's say we don't like to hold onto L-BTC and we want to move it right over
 Without really making this transaction (because we really do want to hold the L-BTC for the next rebalance), here's what it would look like to swap that L-BTC for BTC using [SideSwap](https://sideswap.io/):
 ![SideSwap L-BTC for BTC](media/peerswap_economics_3.png)
 
-> Note: SideSwap has odd fixed fee options in the UI and they had misread the current fee estimates for the Bitcoin on-chain, which at the time of measuring this was closer to 32 sat/vB, but we chose the lowest SideSwap option of `41.62 sat/vB` to see what the cost would be.
+> NOTE: SideSwap has odd fixed fee options in the UI and they had misread the current fee estimates for the Bitcoin on-chain, which at the time of measuring this was closer to 32 sat/vB, but we chose the lowest SideSwap option of `41.62 sat/vB` to see what the cost would be.
 
 Here we can see that if we SideSwap `0.01999851` L-BTC at a bitcoin chain fee rate of `41.62 sat/vB`, we will get `0.01989527` BTC back. That adds a `10,324 sats` fee to our entire process of going from outbound LN BTC liquidity to on-chain BTC.
 
@@ -183,3 +183,13 @@ In all seriousness, here's how we just made a mess of everything:
 So that's it. Use PeerSwap and stop rebalancing. Stop using LOOP as soon as your peers support PeerSwap.
 
 Open a channel to [Zap-O-Matic](https://amboss.space/node/026d0169e8c220d8e789de1e7543f84b9041bbb3e819ab14b9824d37caa94f1eb2) and the other [Liquid PeerSwap enabled community](https://amboss.space/community/181aad24-1871-4be9-ab6d-10ac71383c42) to join the revolution.
+
+## Errata / Debugging Notes
+
+From M2Node + The Wall:
+
+- Make sure your channel is configured to allow min_htlc_msat less than 300000 msat (300 sats) or you will get an error like this:
+
+```
+rpc error: code = Unknown desc = no matching outgoing channel available for node 0
+```
