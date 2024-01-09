@@ -6,7 +6,7 @@
 
 # Articles
 
-- 2024-01-08: [PeerSwap Guide](https://github.com/zapomatic/zapomatic/blob/main/PeerSwap.md)
+- 2024-01-07: [PeerSwap Guide](https://github.com/zapomatic/zapomatic/blob/main/PeerSwap.md)
 - 2024-01-09: [PeerSwap Economics: Deep Dive Comparing LOOP and the problems with Rebalancing](https://github.com/zapomatic/zapomatic/blob/main/PeerSwapEconomics.md)
 <!---
 zapomatic/zapomatic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
