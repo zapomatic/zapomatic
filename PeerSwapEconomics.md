@@ -132,11 +132,11 @@ First, we select a channel to LOOP out from, and for consistency, we are going t
 ![LOOP Out 2M Sats Selection](media/peerswap_economics_5_loopout.png)
 
 and click next:
+
 ![LOOP Out 2M Sats Fee Quote](media/peerswap_economics_6_loopoutfee.png)
 ￼
-_What the Fun?!_
 
-`43,598 sats?!`
+> What the Fun?! `43,598 sats?!`
 
 But here's another kicker. Not only will it cost us `32,795 sats` more to use LOOP out, we would be creating artificial traffic on the lightning network pushing our liquidity problem to other nodes on the network!
 
