@@ -154,9 +154,8 @@ CHAN_ID=$(/home/umbrel/umbrel/scripts/app compose lightning exec lnd lncli listc
 
 pscli swapout --sat_amt=1000000 --channel_id=$CHAN_ID--asset=lbtc
 
-# this will probably timeout since they are not waiting to accept (unless we are chatting live)
-
-# but it will be pending acceptance from the peer and you can view the status of your request
+# if the peer does not have enough lbtc balance to accept, this will timeout
+# either way, we can view the status of the request
 
 pscli listswaps
 ```
