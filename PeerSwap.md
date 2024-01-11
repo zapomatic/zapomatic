@@ -1,5 +1,9 @@
 # PeerSwap on an Umbrel Home
 
+This is part 1 of a 2 part series:
+1. [PeerSwap cli setup on an Umbrel Home]
+2. [PeerSwap Economics: Deep Dive comparison on LOOP and the problems with Rebalancing](https://github.com/zapomatic/zapomatic/blob/main/PeerSwapEconomics.md) 
+
 Feeling reckless today, [Zap-O-Matic](https://amboss.space/node/026d0169e8c220d8e789de1e7543f84b9041bbb3e819ab14b9824d37caa94f1eb2) installed [PeerSwap](https://www.peerswap.dev/) and reached out to [FriendsPool](https://amboss.space/node/023e24602891c28a7872ea1ad5c1bb41abe4206ae1599bb981e3278a121e7895d6) to coordinate a swap (it doesn't require explicit coordination but it's a good idea to make sure your node partner will have the L-BTC to send you for a swap out or that they want to take your L-BTC in exchange for lightning sats).
 
 It went without a hitch! And to our surprise, Liquid BTC transactions have confidential UTXO sizes. The only thing you can see in the history is the addresses and the fees: https://liquid.network/ -- Kinda neat.
