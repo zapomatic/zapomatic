@@ -3,12 +3,8 @@
 - 🌱 I’m currently developing a tool for managing my node
 - 📫 telegram: [@zapomatic](https://t.me/zapomatic)
 
-
 # Articles
 
 - 2024-01-07: [PeerSwap Guide](https://github.com/zapomatic/zapomatic/blob/main/PeerSwap.md)
 - 2024-01-09: [PeerSwap Economics: Deep Dive Comparing LOOP and the problems with Rebalancing](https://github.com/zapomatic/zapomatic/blob/main/PeerSwapEconomics.md)
-<!---
-zapomatic/zapomatic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 2024-01-14: [Fault Tolerant Umbrel Home / Raspberry Pi 5 RAIDZ2 Symlinks Phase 1 Test Setup](https://github.com/zapomatic/zapomatic/blob/main/Fault-Tolerant-Umbrel-Home-Pi-5-RAIDZ2-Symlinks-Phase1-TestSetup.md)
